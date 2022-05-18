@@ -287,18 +287,18 @@ questions = [
 ]
 answers = ['147181 sq km', 'Bhimsen Thapa', '29,140,000', '8848.8 m', '7']
 options = [
-{'a':'147818 sq km', 'b':'157181 sq km', 'c':'147181 sq km', 'd':'157818 sq km}
-    {'a':'Bhimsen Thapa', 'b':'Bhakti Thapa', 'c':'Kalu pande', 'd':'Janga B Rana}
+    {'a':'147818 sq km', 'b':'157181 sq km', 'c':'147181 sq km', 'd':'157818 sq km},
+    {'a':'Bhimsen Thapa', 'b':'Bhakti Thapa', 'c':'Kalu pande', 'd':'Janga B Rana},
     {'a':'21,940,000', 'b':'24,110,000', 'c':'21,490,000', 'd':'29,140,,000'},
     {'a':'8884.4 m ', 'b':'8848.8', 'c':'8848.4 m', 'd':'8884.8 m},
-    {'a':'5','b':'6', 'c':'7', 'd':'8']
+    {'a':'5','b':'6', 'c':'7', 'd':'8'},
 ]
 q_no = 0
 score = 0
 def show_qn_options():
     print(q_no+1, '.' questions[q_no])
     for op in options[q_no]:
-        print(op)
+        print(op, ')',
     print('a)', options[q_no][0])
     print('b)', options[q_no][1])
     print('c)', options[q_no][2])
